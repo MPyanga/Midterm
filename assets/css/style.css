@@ -39,9 +39,12 @@ nav > a {
         margin-left: 80vh;
     }
 .title > h3 {
+    color: rgb(54, 51, 51);;
     font-size: 4vh;
 }
-
+.title p{
+    color: white;
+}
 .button {
     display: table-row;
     display: flex;
@@ -90,7 +93,7 @@ nav > a {
 
 .box
 {
-    background-color: #ccc;
+    background-color: rgb(255, 255, 255,0.5);
     border: none;
     padding: 20px;
     text-align: left;
@@ -104,6 +107,33 @@ nav > a {
 }
 
 .three{
-    height: 80vh;
+    display: flex;
+    height: 120vh;
     background-color: rgb(125, 175, 125);
 }
+.do{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 10rem 40rem;
+}
+
+/* .img-container{
+display: table-column;
+margin-top: 29rem;
+padding: 10rem 10rem;
+
+}
+
+/* .image1{
+    display: table-row;
+    height: 50px;
+    width: 50px;    
+}
+
+.image2{
+    display: table-row;
+    height: 50px;
+    width: 50px;    
+} */ */
