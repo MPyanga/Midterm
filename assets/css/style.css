@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    width: 100%;
+    color: gray;
+}
+header > h3 {
+    font-size: 3vh;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav > a {
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.fa-bars {
+    color: gray;
+}
+
+.one{
+    height: 80vh;
+    background-image: url(/assets/img/top-view-office-desk-laptop-260nw-1521755069.webp);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+        display: table-column;
+        text-align: center;
+        justify-items: center;
+        margin-top: 30vh;
+        margin-left: 80vh;
+    }
+.title > h3 {
+    font-size: 4vh;
+}
+
+.button {
+    display: table-row;
+    display: flex;
+    gap: 30px;
+}
+
+.b1 {
+    border: none;
+    background-color: rgb(54, 51, 51);
+    border-radius: 30vh;
+    padding: 8px 50px;
+    color: white;
+}
+.b2 {
+    border-color: white;
+    background:none;
+    border-radius: 30vh;
+    padding: 8px 50px;
+    color: rgb(54, 51, 51);
+
+}
+.two{
+    display: flex;
+    height: 100vh;
+    background-image:url(/assets/img/black-and-white-laptop-computer-5.jpg);
+    background-size: cover;
+
+}
+.title2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 45rem;
+    height: 30rem;
+    position: absolute;
+    margin-top: 300px;
+    margin-bottom: 0;
+    margin-left: 5vh;
+
+}
+
+.box
+{
+    background-color: #ccc;
+    border: none;
+    padding: 20px;
+    text-align: left;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+.fa-circle{
+    color: rgb(125, 175, 125);
+    font-size: 5vh;
+}
+
+.three{
+    height: 80vh;
+    background-color: rgb(125, 175, 125);
+}
