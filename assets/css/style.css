@@ -69,7 +69,7 @@ nav > a {
 .two{
     display: flex;
     height: 100vh;
-    background-image:url(/assets/img/black-and-white-laptop-computer-5.jpg);
+    background-image:url(../img/black-and-white-laptop-computer-5.jpg);
     background-size: cover;
 
 }
@@ -109,14 +109,18 @@ nav > a {
 .three{
     display: flex;
     height: 120vh;
+    width: 100%;
+
     background-color: rgb(125, 175, 125);
 }
 .do{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     color: white;
-    padding: 10rem 40rem;
 }
 
 /* .img-container{
